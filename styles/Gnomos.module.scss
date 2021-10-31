@@ -1,0 +1,27 @@
+@import './_variables';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .infiniteScroll {
+    overflow: hidden;
+    margin-top: 45px;
+  }
+  .gnomoContainer {
+    margin-top: 60px;
+  }
+}
+
+.searchBar {
+  position: fixed;
+  z-index: 1;
+  width: 91%;
+  @media (min-width: $xs-screen-min) and (max-width: $xs-screen-max) {
+    width: 87%;
+  }
+  .notesMessage {
+    font-size: 10px;
+  }
+}
