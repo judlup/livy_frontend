@@ -21,17 +21,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm run start & npx wait-on http://localhost:3000
-  test:
-    needs: build_and_run
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-    
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm install
       - run: npx playwright install 
       - run: npm run test:e2e
+      
 
