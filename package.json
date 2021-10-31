@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:e2e": "playwright test"
+
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -24,6 +26,7 @@
     "sass": "^1.43.4"
   },
   "devDependencies": {
+    "@playwright/test": "^1.16.2",
     "@types/react": "17.0.33",
     "@types/react-lazy-load-image-component": "^1.5.2",
     "eslint": "7.32.0",
