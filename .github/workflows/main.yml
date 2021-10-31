@@ -20,7 +20,7 @@ jobs:
           node-version: 12
       - run: npm install
       - run: npm run build
-      - run: npm run start
+      - run: npm run start & npx wait-on http://localhost:3000
   test:
     needs: build_and_run
     runs-on: ubuntu-latest
