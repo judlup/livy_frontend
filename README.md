@@ -1,4 +1,4 @@
-# Livy Frontend
+# Livy Frontend [![CI](https://github.com/judlup/livy_frontend/actions/workflows/main.yml/badge.svg)](https://github.com/judlup/livy_frontend/actions/workflows/main.yml)
 
 ## Introduction
 
@@ -16,7 +16,7 @@ This project was created using [NextJS framework](https://nextjs.org/) and [Reac
 
 Please, visit this [Site](https://livy-frontend.netlify.app)
 
-![Screenshor](/resources/screenshot.png 'Demo')
+![Screenshot](/resources/screenshot.png 'Demo')
 
 ## How to run the project
 
@@ -25,3 +25,7 @@ First, clone this repository [https://github.com/judlup/livy_frontend](https://g
 Then, you can run the project: `npm build` and `npm start`
 
 And finally, you can test the project opening a new terminal and running: `npm run test:e2e`
+
+### GitHub Actions
+
+![Screenshot_Github_Actions](/resources/screenshot_test_passed_githu_actions.png)
